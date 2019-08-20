@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이타베이스 활용하기"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+        <EditText
+            android:id="@+id/dbNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="데이터베이스 이름을 입력"/>
+
+        <Button
+            android:id="@+id/btnCreateDB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="데이터베이스 만들기"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/tbNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="테이블을 입력"
+            android:textSize="20sp"
+            />
+
+    <Button
+        android:id="@+id/btnCreateTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테이블 만들기"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레코드 추가하기"
+       android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레코드 수정하기"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레코드 삭제하기"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과확인 : "
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>
